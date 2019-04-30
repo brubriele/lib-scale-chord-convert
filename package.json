@@ -1,0 +1,22 @@
+{
+  "name": "lib-scale-chord-convert",
+  "version": "1.0.0",
+  "description": "'lib\u001b[A\u001b[B-scale-chord-convert'",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "mocha nyc"
+  },
+  "dependencies": {
+    "chai": "^4.2.0"
+  },
+  "devDependencies": {
+    "mocha": "^6.1.4",
+    "nyc": "^14.0.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "",
+  "license": "ISC"
+}
