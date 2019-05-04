@@ -1,10 +1,10 @@
-let chai = require("chai");
-let expect = chai.expect;
-let chordValidator = require("../lib/index")
+const chai = require("chai");
+const expect = chai.expect;
+const chordValidator = require("../lib/index")
 
 describe('Conversor de acordes', () => {
-    it('Deve retornar escala menor', () => {
-        expect(chordValidator.chordValidator("D", "maior")).to.equal("D, E, F#, G, A, B, C#, D")
+    it('Deve retornar escala maior', () => {
+        expect(chordValidator.chordValidator("D", 0)).to.equal("D, E, F#, G, A, B, C#, D")
     });
-})
+});
    

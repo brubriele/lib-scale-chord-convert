@@ -5,12 +5,14 @@
   "main": "index.js",
   "directories": {
     "lib": "lib",
-    "test": "mocha nyc"
+    "test": "mocha nyc",
+    "lint": "eslint"
   },
   "dependencies": {
     "chai": "^4.2.0"
   },
   "devDependencies": {
+    "eslint": "^5.16.0",
     "mocha": "^6.1.4",
     "nyc": "^14.0.0"
   },
