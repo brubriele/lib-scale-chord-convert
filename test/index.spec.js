@@ -21,8 +21,8 @@ describe('Conversor de escalas', () => {
         it('Deve retornar escala menor de F de acordo com semitom(num)', () => {
             expect(libConvert.minorScale("f", 8)).to.eql(['C#','D#','E','F#','G#','A','B']);
         });
-        it('Deve retornar escala menor de C de acordo com semitom(num)', () => {
-            expect(libConvert.minorScale("C", -4)).to.eql(['E',"F#",'G','A','B','C','D']);
+        it('Deve retornar escala menor de G# de acordo com semitom(num)', () => {
+            expect(libConvert.minorScale("G#", -4)).to.eql(['C','D','D#','F','G','G#','A#']);
         });
         
     });
