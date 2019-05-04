@@ -1,7 +1,7 @@
 {
   "name": "lib-scale-chord-convert",
   "version": "1.0.0",
-  "description": "'lib\u001b[A\u001b[B-scale-chord-convert'",
+  "description": "Transposes to the Major, Minor and Pentatonic scales in different tones.",
   "main": "index.js",
   "scripts": {
     "test": "nyc mocha"
@@ -18,6 +18,6 @@
     "mocha": "^6.1.4",
     "nyc": "^14.1.0"
   },
-  "author": "",
+  "author": "Bruna Gabriele de Paula",
   "license": "ISC"
 }
