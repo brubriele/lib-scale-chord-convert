@@ -8,9 +8,9 @@ Valores em semitons: <br>
 
 
 A biblioteca poderá ser testada através de três funções: 
->convertMajorScale();  <br>
->convertMinorScale();   <br>
->convertPentaScale();
+>majorScale();  <br>
+>minorScale();   <br>
+>pentaScale();
 
 # Como instalar
 $  npm install lib-scale-chord-convert
