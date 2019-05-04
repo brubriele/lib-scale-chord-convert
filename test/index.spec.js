@@ -7,7 +7,7 @@ describe('Conversor de escalas', () => {
         it('Deve retornar escala maior de D de acordo com semitom(num)', () => {
             expect(libConvert.majorScale("D", 0)).to.eql(['D', 'E', 'F#', 'G', 'A', 'B', 'C#']);
         });
-        it('Deve retornar escala maior   de D# de acordo com semitom(num)', () => {
+        it('Deve retornar escala maior de D# de acordo com semitom(num)', () => {
             expect(libConvert.majorScale("D#", 2)).to.eql(['F', 'G', 'A', 'A#', 'C', 'D', 'E']);
         });
         it('Deve retornar escala maior de B de acordo com semitom(num)', () => {
@@ -30,6 +30,12 @@ describe('Conversor de escalas', () => {
     describe('Escala Pentatônica', () => {
         it('Deve retornar escala pentatônica de A# de acordo com semitom(num)', () => {
             expect(libConvert.pentaScale("A#", 7)).to.eql(['F','G#','A#','C','D#','F']);
+        });
+        it('Deve retornar escala pentatônica de E de acordo com semitom(num)', () => {
+            expect(libConvert.pentaScale("e", 0)).to.eql(['E','G','A','B','D','E']);
+        });
+        it('Deve retornar escala pentatônica de F de acordo com semitom(num)', () => {
+            expect(libConvert.pentaScale("F", 5)).to.eql(["A#",'C#','D#','F','G#','A#']);
         });
         
     });
