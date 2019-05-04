@@ -1,6 +1,6 @@
 const chai = require("chai");
 const expect = chai.expect;
-const libConvert = require("../lib/index")
+const libConvert = require("../lib/index.js")
 
 describe('Conversor de escalas', () => {
     describe('Escala Maior', () => {
