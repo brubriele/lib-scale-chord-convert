@@ -3,9 +3,12 @@
   "version": "1.0.0",
   "description": "'lib\u001b[A\u001b[B-scale-chord-convert'",
   "main": "index.js",
+  "scripts": {
+    "test": "nyc mocha"
+  },
   "directories": {
     "lib": "lib",
-    "test": "nyc mocha",
+    "test": "mocha nyc",
     "lint": "eslint"
   },
   "dependencies": {
