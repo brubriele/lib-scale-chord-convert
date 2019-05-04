@@ -8,7 +8,6 @@
   },
   "directories": {
     "lib": "lib",
-    "test": "mocha nyc",
     "lint": "eslint"
   },
   "dependencies": {
@@ -18,9 +17,6 @@
     "eslint": "^5.16.0",
     "mocha": "^6.1.4",
     "nyc": "^14.1.0"
-  },
-  "scripts": {
-    "test": "mocha"
   },
   "author": "",
   "license": "ISC"
