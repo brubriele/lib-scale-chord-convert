@@ -8,7 +8,7 @@ Valores em semitons: <br>
 
 
 A biblioteca poderá ser testada através de três funções: 
-> convertMajorScale();  <br>
+>convertMajorScale();  <br>
 >convertMinorScale();   <br>
 >convertPentaScale();
 
