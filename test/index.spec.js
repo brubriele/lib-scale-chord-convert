@@ -10,7 +10,7 @@ describe('Conversor de escalas', () => {
         it('Deve retornar escala maior de D# de acordo semitom(num)', () => {
             expect(libConvert.majorScale("D#", 2)).to.eql(['F', 'G', 'A', 'A#', 'C', 'D', 'E']);
         });
-        it('Deve retornar escala maior de D# de acordo semitom(num)', () => {
+        it('Deve retornar escala maior de B de acordo semitom(num)', () => {
             expect(libConvert.majorScale("b", 5)).to.eql(['E','F#','G#','A','B','C#','D#']);
         });
     });
