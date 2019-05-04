@@ -11,18 +11,25 @@ describe('Conversor de escalas', () => {
             expect(libConvert.majorScale("D#", 2)).to.eql(['F', 'G', 'A', 'A#', 'C', 'D', 'E']);
         });
         it('Deve retornar escala maior de B de acordo com semitom(num)', () => {
-            expect(libConvert.majorScale("b", 5)).to.eql(['E','F#','G#','A','B','C#','D#']);
+            expect(libConvert.majorScale("b", 5)).to.eql(['E', 'F#', 'G#', 'A', 'B', 'C#', 'D#']);
         });
     });
     describe('Escala Menor', () => {
         it('Deve retornar escala menor de C de acordo com semitom(num)', () => {
-            expect(libConvert.minorScale("C", 0)).to.eql(['C','D',"D#",'F','G','G#','A#']);
+            expect(libConvert.minorScale("C", 0)).to.eql(['C', 'D', "D#", 'F', 'G', 'G#', 'A#']);
         });
         it('Deve retornar escala menor de F de acordo com semitom(num)', () => {
-            expect(libConvert.minorScale("f", 8)).to.eql(['C#','D#','E','F#','G#','A','B']);
+            expect(libConvert.minorScale("f", 8)).to.eql(['C#', 'D#', 'E', 'F#', 'G#', 'A', 'B']);
         });
         it('Deve retornar escala menor de G# de acordo com semitom(num)', () => {
-            expect(libConvert.minorScale("G#", -4)).to.eql(['C','D','D#','F','G','G#','A#']);
+            expect(libConvert.minorScale("G#", -4)).to.eql(['C', 'D', 'D#', 'F', 'G', 'G#', 'A#']);
+        });
+
+    });
+
+    describe('Escala Pentatônica', () => {
+        it('Deve retornar escala pentatônica de A# de acordo com semitom(num)', () => {
+            expect(libConvert.pentaScale("A#", 7)).to.eql(['F','G#','A#','C','D#','F']);
         });
         
     });
