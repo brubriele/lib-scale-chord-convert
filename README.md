@@ -1,4 +1,4 @@
-# Conversor de Escalas Musicais v.1.0.2
+# Conversor de Escalas Musicais v.1.0.4
 
 **A biblioteca tem como finalidade exibir e/ou converter escalas**. Na versão inicial a biblioteca faz transposição para as escalas Maior, Menor e Pentatônica em diferentes tonalidades. 
 
