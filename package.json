@@ -1,6 +1,6 @@
 {
   "name": "lib-scale-chord-convert",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Transposes to the Major, Minor and Pentatonic scales in different tones.",
   "main": "lib/index.js",
   "scripts": {
