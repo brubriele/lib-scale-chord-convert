@@ -11,7 +11,9 @@
     "lint": "eslint"
   },
   "dependencies": {
-    "chai": "^4.2.0"
+    "chai": "^4.2.0",
+    "mocha": "^6.1.4",
+    "nyc": "^14.1.0"
   },
   "devDependencies": {
     "eslint": "^5.16.0",
