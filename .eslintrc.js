@@ -1,5 +1,6 @@
 module.exports = {
     "env": {
+        "browser": true,
         "commonjs": true,
         "es6": true,
         "node": true
@@ -12,41 +13,83 @@ module.exports = {
     "parserOptions": {
         "ecmaVersion": 2018
     },
-    "rules": {
-        "indent": [
-            "error",
-            2
-        ],
-        "linebreak-style": [
-            "error", 
-            "windows"
-        ],
-        "quotes": [
-            "error",
-            "double"
-        ],
-        "semi": [
-            "error",
-            "always"
-        ],
-        "camelcase": 2,
-        // "id-length": 2, 
-        "keyword-spacing": 1,
-        "space-infix-ops": 1,
-        "comma-spacing": 1,
-        "space-before-blocks": 1,
-        "spaced-comment": 1,
-        "no-multi-spaces": 1,
-        "space-in-parens": 1,
-        "space-before-function-paren": 1,
-        "func-call-spacing": 1,
-        "no-multiple-empty-lines": 1,
-        "padded-blocks": 1,
-        "quotes": 1, //???
-        "no-floating-decimal": 1,
-        "object-property-newline": 1,
-        "brace-style": 1,
-        "eqeqeq": 1,
-        "no-array-constructor": 1
-    }
-};
+    'rules': {
+      'indent': [
+        'error',
+        2
+    ],
+    'quotes': [
+        'error',
+        'single'
+    ],
+    'semi': [
+        'error',
+        'always'
+    ],
+    "space-in-parens": [
+        "error",
+        "never"
+    ],
+    "padded-blocks": [
+        "error",
+        "never"
+    ],
+    "keyword-spacing": [
+        "error",
+         { "before": true }
+    ],
+    "space-infix-ops": [
+        "error",
+        {"int32Hint": false}
+    ],
+    "comma-spacing": [
+        "error",
+        { "before": false, "after": true }
+    ],
+    "space-before-blocks": [
+        "error",
+        "always"
+    ],
+    "spaced-comment": [
+        "error",
+        "always",
+        { "exceptions": ["-", "+"] }
+    ],
+    "no-multi-spaces": [
+        "error",
+    ],
+    "no-multiple-empty-lines":[
+      "error",
+      { "max": 2}
+    ],
+    "space-before-function-paren":[
+        "error",
+        "never"
+    ],
+    "func-call-spacing": [
+        "error",
+        "never"
+    ],
+    "no-floating-decimal": [
+        "error"
+    ],
+    "object-property-newline": [
+        "error"
+    ],
+    "brace-style": [
+        "error"
+    ],
+    "eqeqeq": [
+        "error",
+        "always"
+    ],
+    "no-array-constructor":[
+        "error",
+    ],
+    'camelcase': ["error", {properties: "always"}],
+    'keyword-spacing': [
+        'error', {
+        'after': true
+    }],
+  }
+ };
