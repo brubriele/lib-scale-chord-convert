@@ -1,4 +1,4 @@
-# Conversor de Escalas Musicais v.1.0.8
+# Conversor de Escalas Musicais v.1.0.9
 
 **A biblioteca tem como finalidade exibir e/ou converter escalas**. Na versão inicial a biblioteca faz transposição para as escalas Maior, Menor e Pentatônica em diferentes tonalidades. 
 
@@ -32,3 +32,9 @@ $  npm install lib-scale-chord-convert
 > console.log(libConvert.pentaScale("A#", 7))
 > // returns 'F','G#','A#','C','D#','F'
 ```
+
+# Roadmap Oficial do Projeto
+
+**versão 1.0.9 (released)**
+
+- Funcionalidades: transposição de escalas musicais **(Maior, Menor ou Pentatônica)** de acordo com tonalidades e semitons definidos.
