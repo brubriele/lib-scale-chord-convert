@@ -1,5 +1,5 @@
 
-# Conversor de Escalas Musicais v.2.1.0
+# Conversor de Escalas Musicais v.2.0.1
 
   
 
@@ -102,7 +102,7 @@ $ npm install lib-scale-chord-convert
 
 # Roadmap Oficial do Projeto
 
-**versão 2.1.0 (released)**
+**versão 2.0.1 (released)**
 
 - Implementação da conversão para escalas
 
