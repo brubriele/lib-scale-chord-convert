@@ -30,7 +30,7 @@ Uma __string__ que situa a escolha da estrutura da escala a ser convertida.<br>
 
 # Como instalar
 
-$ npm install lib-scale-chord-convert
+```$ npm install lib-scale-chord-convert```
 
   
 
