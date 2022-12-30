@@ -12,12 +12,12 @@
   },
   "dependencies": {
     "chai": "^4.2.0",
-    "mocha": "^6.1.4",
+    "mocha": "^10.2.0",
     "nyc": "^14.1.0"
   },
   "devDependencies": {
     "eslint": "^5.16.0",
-    "mocha": "^6.1.4",
+    "mocha": "^10.2.0",
     "nyc": "^14.1.0"
   },
   "author": "Bruna Gabriele de Paula",
